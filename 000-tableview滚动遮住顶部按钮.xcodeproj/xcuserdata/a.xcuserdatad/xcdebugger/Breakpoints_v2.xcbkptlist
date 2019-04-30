@@ -10,59 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "000-tableview&#x6eda;&#x52a8;&#x906e;&#x4f4f;&#x9876;&#x90e8;&#x6309;&#x94ae;/ContentController.m"
-            timestampString = "577972715.564908"
+            timestampString = "578281335.8334039"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "141"
-            endingLineNumber = "141"
-            landmarkName = "-tableView:cellForRowAtIndexPath:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "000-tableview&#x6eda;&#x52a8;&#x906e;&#x4f4f;&#x9876;&#x90e8;&#x6309;&#x94ae;/ContentController.m"
-            timestampString = "577972715.5666929"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "110"
-            endingLineNumber = "110"
-            landmarkName = "-scrollViewDidScroll:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "000-tableview&#x6eda;&#x52a8;&#x906e;&#x4f4f;&#x9876;&#x90e8;&#x6309;&#x94ae;/ContentController.m"
-            timestampString = "577972715.567871"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "132"
-            endingLineNumber = "132"
-            landmarkName = "-changeAlphaOfThoseView:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "000-tableview&#x6eda;&#x52a8;&#x906e;&#x4f4f;&#x9876;&#x90e8;&#x6309;&#x94ae;/ContentController.m"
-            timestampString = "577972715.569652"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "66"
-            endingLineNumber = "66"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
             landmarkName = "-loadView"
             landmarkType = "7">
          </BreakpointContent>
@@ -73,30 +25,24 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "000-tableview&#x6eda;&#x52a8;&#x906e;&#x4f4f;&#x9876;&#x90e8;&#x6309;&#x94ae;/ContentController.m"
-            timestampString = "577972715.5703731"
+            filePath = "000-tableview&#x6eda;&#x52a8;&#x906e;&#x4f4f;&#x9876;&#x90e8;&#x6309;&#x94ae;/LingScrollView/LingScrollView.m"
+            timestampString = "578281335.833843"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "100"
-            endingLineNumber = "100"
-            landmarkName = "-scrollViewDidScroll:"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "-initWithFrame:withBlock:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "000-tableview&#x6eda;&#x52a8;&#x906e;&#x4f4f;&#x9876;&#x90e8;&#x6309;&#x94ae;/ContentController.m"
-            timestampString = "577972715.572084"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "124"
-            endingLineNumber = "124"
-            landmarkName = "-changeAlphaOfThoseView:"
-            landmarkType = "7">
+            scope = "0"
+            stopOnStyle = "0">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -17,6 +17,8 @@
 		00620C82227189FB002AA4A3 /* _00_tableview________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00620C81227189FB002AA4A3 /* _00_tableview________UITests.m */; };
 		00620C9122718AA9002AA4A3 /* ContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00620C9022718AA9002AA4A3 /* ContentController.m */; };
 		00620C9422719E47002AA4A3 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00620C9322719E47002AA4A3 /* ImageViewController.m */; };
+		00A608C92276AA4A00AAE585 /* LingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A608C82276AA4A00AAE585 /* LingScrollView.m */; };
+		00A608CE2276AE4200AAE585 /* UsedViewContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A608CD2276AE4200AAE585 /* UsedViewContentViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,10 @@
 		00620C9022718AA9002AA4A3 /* ContentController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContentController.m; sourceTree = "<group>"; };
 		00620C9222719E47002AA4A3 /* ImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
 		00620C9322719E47002AA4A3 /* ImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		00A608C72276AA4A00AAE585 /* LingScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LingScrollView.h; sourceTree = "<group>"; };
+		00A608C82276AA4A00AAE585 /* LingScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LingScrollView.m; sourceTree = "<group>"; };
+		00A608CA2276ADEB00AAE585 /* UsedViewContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UsedViewContentViewController.h; sourceTree = "<group>"; };
+		00A608CD2276AE4200AAE585 /* UsedViewContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsedViewContentViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,8 +117,11 @@
 				00620C5E227189FA002AA4A3 /* AppDelegate.m */,
 				00620C60227189FA002AA4A3 /* ViewController.h */,
 				00620C61227189FA002AA4A3 /* ViewController.m */,
+				00A608CA2276ADEB00AAE585 /* UsedViewContentViewController.h */,
+				00A608CD2276AE4200AAE585 /* UsedViewContentViewController.m */,
 				00620C8F22718AA9002AA4A3 /* ContentController.h */,
 				00620C9022718AA9002AA4A3 /* ContentController.m */,
+				00A608C62276AA1000AAE585 /* LingScrollView */,
 				00620C9222719E47002AA4A3 /* ImageViewController.h */,
 				00620C9322719E47002AA4A3 /* ImageViewController.m */,
 				00620C63227189FA002AA4A3 /* Main.storyboard */,
@@ -140,6 +149,15 @@
 				00620C83227189FB002AA4A3 /* Info.plist */,
 			);
 			path = "000-tableview滚动遮住顶部按钮UITests";
+			sourceTree = "<group>";
+		};
+		00A608C62276AA1000AAE585 /* LingScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				00A608C72276AA4A00AAE585 /* LingScrollView.h */,
+				00A608C82276AA4A00AAE585 /* LingScrollView.m */,
+			);
+			path = LingScrollView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,7 +294,9 @@
 				00620C62227189FA002AA4A3 /* ViewController.m in Sources */,
 				00620C9122718AA9002AA4A3 /* ContentController.m in Sources */,
 				00620C6D227189FB002AA4A3 /* main.m in Sources */,
+				00A608CE2276AE4200AAE585 /* UsedViewContentViewController.m in Sources */,
 				00620C5F227189FA002AA4A3 /* AppDelegate.m in Sources */,
+				00A608C92276AA4A00AAE585 /* LingScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +469,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "000-tableview滚动遮住顶部按钮/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,6 +486,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "000-tableview滚动遮住顶部按钮/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
